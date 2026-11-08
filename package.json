@@ -1,0 +1,16 @@
+{
+  "name": "bac",
+  "version": "4.0.0",
+  "private": true,
+  "description": "BAC – comparador de preços de supermercados com IoT (PI 4º semestre DSM, FATEC Franca)",
+  "engines": { "node": ">=22.13.0" },
+  "scripts": {
+    "postinstall": "node scripts/instalar.js",
+    "start": "node scripts/iniciar.js web",
+    "mobile": "node scripts/iniciar.js mobile",
+    "tudo": "node scripts/iniciar.js tudo",
+    "api": "node scripts/iniciar.js api",
+    "build": "npm --prefix web run build",
+    "test": "npm --prefix backend test"
+  }
+}

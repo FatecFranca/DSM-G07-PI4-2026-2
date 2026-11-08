@@ -1,0 +1,20 @@
+{
+  "expo": {
+    "name": "BAC",
+    "slug": "bac-mobile",
+    "version": "4.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#16a34a"
+      }
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}

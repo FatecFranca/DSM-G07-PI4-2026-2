@@ -1,0 +1,16 @@
+node_modules/
+dist/
+.expo/
+web-build/
+backend/data/
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+npm-debug.log*
