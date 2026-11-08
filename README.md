@@ -36,16 +36,6 @@ npm run mobile
 O app descobre sozinho o endereço da API (mesmo IP do computador). Se o Windows perguntar sobre o Firewall, permita o acesso em rede privada. Caso a conexão falhe, a aba **Conta** tem o campo "Servidor da API" para ajustar sem mexer em código.
 Se o Expo Go reclamar de versão do SDK, atualize o app Expo Go na loja.
 
-### Contas de demonstração
-
-| Perfil | E-mail | Senha |
-|---|---|---|
-| Consumidor | user@gmail.com | user123 |
-| Supermercado (Savegnago) | savegnago@market.com | market123 |
-| Administrador | admin@bac.com | admin123 |
-
-Os outros mercados seguem o padrão `tonin@market.com`, `assai@market.com`, `atacadao@market.com`, `carrefour@market.com` (senha `market123`).
-
 ## Comandos
 
 | Comando | O que faz |
@@ -59,10 +49,6 @@ Os outros mercados seguem o padrão `tonin@market.com`, `assai@market.com`, `ata
 | `npm run build` | gera o site otimizado (depois a API passa a servi-lo em http://localhost:3333) |
 
 Para zerar os dados, apague a pasta `backend/data` e inicie de novo.
-
-## Demonstração sugerida (vídeo)
-
-Veja `docs/roteiro-video.md`. Em resumo: buscar produto → comparar mercados → carrinho/lista otimizada → login como supermercado → painel em tempo real → desligar o compressor (atuador) e ver a temperatura subir até gerar alerta → estatísticas (regressão, histograma) → mesmo painel no celular → documentação OpenAPI.
 
 ## Estrutura
 
