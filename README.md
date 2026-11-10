@@ -63,6 +63,10 @@ docs/       requisitos, arquitetura, IoT/estatística, roteiro do vídeo
 
 Documentação detalhada: [`docs/atendimento-requisitos.md`](docs/atendimento-requisitos.md), [`docs/arquitetura.md`](docs/arquitetura.md), [`docs/iot-e-estatistica.md`](docs/iot-e-estatistica.md).
 
+## Video Do Projeto (Youtube)
+
+https://youtu.be/yd3le6cd_OA
+
 ## Segurança
 
 - Senhas com *scrypt* + sal; autenticação por token JWT (HS256) com segredo gerado automaticamente em `backend/data`.
